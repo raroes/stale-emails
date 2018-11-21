@@ -1,3 +1,3 @@
-# stale email analysis
+# Scientific email addresses going stale
 
-scripts and methods used for the analysis of stale emails in the MEDLINE database
+Scripts and methods used for the analysis of stale emails in the MEDLINE database
