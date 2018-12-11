@@ -4,7 +4,7 @@
 
 ### * *methods.pdf*: describes the methods used in the commentary article
 
-### * *classify_email_addresses*: counts the number of new email addresses in MEDLINE per year and the number that belong to free email providers
+### * *classify_email_addresses.py*: counts the number of new email addresses in MEDLINE per year and the number that belong to free email providers
 
 ### * *count_medline_emails.py*: counts the number of new email addresses in MEDLINE per year
 
