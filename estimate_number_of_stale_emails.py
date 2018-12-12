@@ -10,8 +10,6 @@ from datetime import date
 # data file created by the script count_medline_emails.py
 input_file = "medline_email_first_time.txt"
 
-# linear parameter in the Bernouilli process
-alpha = 0.02
 # reference time in which the data was gathered
 reference_time = 2018.87
 # estimation of staling probability based on the Bernouilli process
