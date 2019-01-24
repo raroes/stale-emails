@@ -2,7 +2,7 @@
 
 ## Scripts and methods used for the analysis of stale emails in the MEDLINE database
 
-### * *methods.pdf*: describes the methods used in the commentary article
+### * *methods.pdf*: describes the methods used in the article
 
 ### * *classify_email_addresses.py*: counts the number of new email addresses in MEDLINE per year and the number that belong to free email providers
 
