@@ -12,8 +12,9 @@ input_file = "medline_email_first_time.txt"
 
 # reference time in which the data was gathered
 reference_time = 2018.87
-# estimation of staling probability based on the Bernouilli process
+# estimation of staling probability based on the Bernoulli process
 def staling_function(x):
+    # the value 0.021 was computed in the Bernoulli model estimation notebook within the repository
     output = 0.021*(reference_time - x)
     return output
 
