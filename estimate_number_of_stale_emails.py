@@ -34,6 +34,8 @@ for line in f_in:
         pub_date = date(int(year), int(month), int(day))
         date_value = int(year) + (pub_date.timetuple().tm_yday) / 365
         probability = 1 - staling_function(date_value)
+        if probability < 0:
+            probability = 0
         # cumulative probability
         sum_probability += probability
         email_count += 1
